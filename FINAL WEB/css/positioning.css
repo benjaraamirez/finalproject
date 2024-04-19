@@ -1,0 +1,54 @@
+body {
+    font-family: Georgia;
+}
+
+.common {
+    position: absolute;
+    background-color: rgb(3, 122, 104);
+    color: whitesmoke;
+    width: 100%;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: oblique;
+    font-size: small;
+    background-color: rgb(252, 233, 3);
+    color: black;
+}
+
+.top {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    z-index: 1;
+    height: 50px;
+}
+
+.content {
+    position: absolute;
+    top: 45px; 
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    padding-bottom: 20px; 
+}
+
+.nav {
+    position: relative;
+    float: right;
+    z-index: 2;  
+    color: yellow;
+}
+
+.tuetue {
+    font-size: larger;
+    font-weight: bold;  
+    color: white;
+    text-align: right;
+}
